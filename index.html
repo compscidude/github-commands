@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title> Fresh Todos </title>
+ </head>
+ <body>
+
+   
+ 	<script type="text/template" id="tmpl-each-item">
+ 		    <td> <%= title %> </td>
+ 			<td> <%= done %> </td> 
+ 	</script>
+
+ 	<div class="container">
+ 			
+			  <fieldset>
+			    <legend> Todo </legend>
+			    <div id="list"> </div>
+			    <input id="new-todo" type="text" placeholder="Enter your Todo">
+			  </fieldset>
+				
+
+			<!-- This will hold all of our individiual todo list items -->
+			<table id="list-table" class="table">
+
+			</table>
+ 	</div>
+
+
+
+ 	<!-- Always load the javascript at the end of the body, otherwise, it won't be able to load up the DOM that it is responsible for -->
+ 	<script type="text/javascript" src="../../setup/jquery.js"></script>
+	<script type="text/javascript" src="../../setup/bootstrap.js"></script>
+ 	<script type="text/javascript" src="../../setup/underscore.js"></script>
+ 	<script type="text/javascript" src="../../setup/backbone.js"></script>
+ 	<script type="text/javascript" src="js/main.js"></script>
+
+ 	<link rel="stylesheet" href="../../setup/bootstrap.min.css">
+
+ </body>
+</html>
