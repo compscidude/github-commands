@@ -19,3 +19,9 @@ This repository will be used to become familiar with Git commands.
 5) Finally commit our work to the repository
 > git push -u origin master
 
+
+Frequently used commands
+
+> git add.
+> git commit -m "new commit"
+> git push -u origin master
