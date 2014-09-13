@@ -22,6 +22,6 @@ This repository will be used to become familiar with Git commands.
 
 To add new changes to the repository, the following three commands are required.
 
-1) git add .
+1) git add . 
 2) git commit -m "new commit"
 3) git push -u origin master
