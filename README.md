@@ -14,7 +14,7 @@ This repository will be used to become familiar with Git commands.
 > git commit -m "initial commit"
 
 4) This remotely add our work to our github repository 
-> git remote add origin <repository link>
+> git remote add origin (repository link)
 
 5) Finally commit our work to the repository
 > git push -u origin master
