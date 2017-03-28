@@ -27,3 +27,13 @@ To add new changes to the repository, the following three commands are required.
 > git commit -m "new commit"
 
 > git push -u origin master
+
+
+Forking
+=============
+To make your own version of someone else's work, the best option is to "Fork".
+This creates a new repository in your github with all the files from the original repository.
+Any subsequent commits will now directly affect the newly created folder.
+
+After you've clicked the fork icon on the top right side of the webpage, you need to clone the files to your folder using the following command.
+  git clone https://github.com/MY_USERNAME/REPOSITORY.git
