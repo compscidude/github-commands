@@ -50,16 +50,20 @@ The pull command is "fetch" and "merge" joined together.
 
 Work Cycle
 ============
+Create a remote ( git remote add origin https://github.com/MY_USERNAME/REPOSITORY.git
+
+Change a file 
+
+Commit locally ( git commit -m "new commit message" ) 
+
+Push to remote ( git push -u origin --all )
+
+Pull from remote ( git pull origin master )
+
 Change a file
 
 Commit locally
 
-Push to remote
+Push to remote ...
 
-Pull from remote
-
-Change a file
-
-Commit locally
-... 
 So on
