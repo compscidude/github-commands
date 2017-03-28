@@ -37,3 +37,13 @@ Any subsequent commits will now directly affect the newly created folder.
 
 After you've clicked the fork icon on the top right side of the webpage, you need to clone the files to your folder using the following command.
   git clone https://github.com/MY_USERNAME/REPOSITORY.git
+
+
+Fetching
+============
+Fetch grabs the data without merging with your work
+
+Merging
+=============
+Merging is a command that allows you to combine different people's work with yours. 
+The pull command is "fetch" and "merge" joined together.
