@@ -47,3 +47,19 @@ Merging
 =============
 Merging is a command that allows you to combine different people's work with yours. 
 The pull command is "fetch" and "merge" joined together.
+
+Work Cycle
+============
+Change a file
+
+Commit locally
+
+Push to remote
+
+Pull from remote
+
+Change a file
+
+Commit locally
+... 
+So on
